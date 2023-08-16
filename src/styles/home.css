@@ -1,6 +1,55 @@
-.container_card{
-    overflow-x: scroll;
-    height: 30vh;
-
+body{
+    background-image: url("https://cdn.wallpapersafari.com/55/82/mW2pOZ.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
 }
+
+.fatherCharacter{
+    overflow-x: scroll;
+    height: 100%;
+
+}
+.fatherPlanets{
+    overflow-x: scroll;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.fatherCharacter::-webkit-scrollbar{
+    width: 5px;
+}
+.fatherCharacter::-webkit-scrollbar-thumb{
+    background-color: rgba(165, 42, 42, 0.411);
+}
+.fatherCharacter::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(255, 0, 0, 0.637);
+}
+
+.fatherPlanets::-webkit-scrollbar{
+    width: 5px;
+}
+.fatherPlanets::-webkit-scrollbar-thumb{
+    background-color: rgba(165, 42, 42, 0.411);
+}
+.fatherPlanets::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(255, 0, 0, 0.637);
+}
+
+.fa-heart:hover{
+    color: red;
+}
+
+.logo{
+    width: 5vw;
+    height: 5vh;
+}
+
+.button:hover{
+    box-shadow: 0 0 10px solid rgba(255, 0, 0, 0.37);
+
+}
+
